@@ -17,8 +17,10 @@ body {
 }
 
 .nav-header {
+  font-weight: 500;
 }
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -55,3 +57,19 @@ body {
 .item-nav-link:focus {
   color: #404bbf;
 }
+.contact-info {
+  font-style: normal;
+}
+.address-info {
+  font-style: normal;
+}
+
+/* region portfolio */
+.section-title-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* end region portfolio  */
