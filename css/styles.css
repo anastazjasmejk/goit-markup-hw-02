@@ -26,7 +26,7 @@ body {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-style {
   font-weight: 700;
@@ -34,9 +34,14 @@ body {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-list-header {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 .nav-header-item {
   font-weight: 500;
