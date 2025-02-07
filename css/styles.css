@@ -77,6 +77,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  background: #2e2f42;
 }
 .button-primary {
   border-radius: 4px;
