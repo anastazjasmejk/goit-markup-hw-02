@@ -63,31 +63,46 @@ body {
   color: #404bbf;
 }
 /* end region nav */
-.contact-info {
-  font-style: normal;
-}
 .address-info {
-  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.contact-link_1:hover,
+.contact-link_1:focus {
+  color: #404bbf;
+  outline: none;
 }
 
+.main-header-section {
+  background-color: #2e2f42;
+}
 .main-header {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
 }
 .button-primary {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
 }
+
 .button-primary:hover,
 .button-primary:focus {
   color: #404bbf;
+  outline: none;
 }
 /* region advantages */
 .subtitle-advantages {
