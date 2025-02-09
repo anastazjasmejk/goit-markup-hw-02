@@ -35,7 +35,6 @@ body {
 }
 .nav-list-header {
   list-style: none;
-  padding: 0;
   margin: 0;
   color: #2e2f42;
 }
@@ -104,7 +103,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   border: none;
-  padding: 10px 20px;
 }
 
 .button-primary:hover,
@@ -145,7 +143,6 @@ body {
   text-transform: capitalize;
 }
 .style-text-list {
-  padding: 0px 0px 32px 0px;
   background: #fff;
 }
 .name-team-section {
@@ -175,9 +172,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.list-section-portfolio img {
-  width: 360px;
-}
+
 .list-section-portfolio img[alt='img Banking App'] {
   border: 1px solid red;
 }
@@ -214,7 +209,7 @@ body {
 }
 .footer-text {
   line-height: 1.5;
-  color: var(--text-color, #f4f4fd); /* Используем CSS переменную для цвета */
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 /* end region footer */
