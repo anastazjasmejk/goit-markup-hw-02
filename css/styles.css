@@ -16,9 +16,6 @@ body {
   background-color: #ffffff;
 }
 /* region header */
-.nav-header {
-  font-weight: 500;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -51,7 +48,7 @@ body {
   color: #2e2f42;
 }
 .item-nav-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -70,6 +67,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+.address-info:hover,
+.address-info:focus {
+  color: #404bbf;
+  outline: none;
 }
 .contact-link_1:hover,
 .contact-link_1:focus {
