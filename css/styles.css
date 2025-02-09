@@ -15,7 +15,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* region nav */
+/* region header */
 .nav-header {
   font-weight: 500;
 }
@@ -56,13 +56,14 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
 .item-nav-link:hover,
 .item-nav-link:focus {
   color: #404bbf;
 }
-/* end region nav */
+
 .address-info {
   font-size: 16px;
   line-height: 1.5;
@@ -75,13 +76,15 @@ body {
   color: #404bbf;
   outline: none;
 }
+/* end region header */
+/* region 1 */
 
 .main-header-section {
   background-color: #2e2f42;
 }
 .main-header {
   font-size: 56px;
-  line-height: 1.07%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -101,10 +104,12 @@ body {
 
 .button-primary:hover,
 .button-primary:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+  color: #fff;
   outline: none;
 }
-/* region advantages */
+/* end region 1 */
+/* region 2 */
 .subtitle-advantages {
   font-weight: 500;
   font-size: 20px;
@@ -119,9 +124,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*END region advantages */
+/*end region 2 */
 
-/* redion our team  */
+/* redion 3  */
 .text-center {
   font-weight: 700;
   font-size: 36px;
@@ -130,7 +135,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.foto-team {
+.style-text-list {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -155,9 +160,9 @@ body {
   text-align: center;
   color: #434455;
 }
-/*  END redion our team */
+/*  end redion 3 */
 
-/* region portfolio */
+/* region 4 */
 .section-title-portfolio {
   font-size: 36px;
   line-height: 1.11;
@@ -165,4 +170,4 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/* END region portfolio  */
+/* end region 4  */
