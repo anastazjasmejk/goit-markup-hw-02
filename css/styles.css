@@ -46,7 +46,12 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item-nav-link-first-link {
+.first-link:hover,
+.first-link:focus {
+  color: #404bbf;
+}
+
+.item-nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
