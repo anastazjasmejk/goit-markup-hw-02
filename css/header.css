@@ -65,12 +65,3 @@ text-decoration: none;
 .address-info:focus {
 color: #404bbf;
 }
-
-
-
-
-
-.address-section ul {
-    display: flex;
-    gap: 40px;
-}
