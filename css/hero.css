@@ -1,0 +1,30 @@
+.main-header-section {
+    background-color: #2e2f42;
+}
+
+.main-header {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.button-primary {
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #404bbf;
+    color: #fff;
+    outline: none;
+}
