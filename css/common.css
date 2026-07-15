@@ -1,16 +1,16 @@
 
-a{
+.a{
     text-decoration: none;
 }
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
 .logo {font-family: "Raleway", sans-serif;
 }
-ul,
-ol{
+.ul,
+.ol{
     list-style-type: none;
 margin: 0;
 padding: 0;
